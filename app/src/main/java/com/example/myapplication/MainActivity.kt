@@ -40,7 +40,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-// ---------- Palette ----------
 private val NavyDark = Color(0xFF0B1F3A)
 private val NavyMid = Color(0xFF13315C)
 private val AccentBlue = Color(0xFF2F6FED)
@@ -67,8 +66,7 @@ class MainActivity : ComponentActivity() {
 
 private const val HEADER_HEIGHT_DP = 140
 private const val AVATAR_SIZE_DP = 130
-// Avatar overlaps the header by this much, and everything below
-// is spaced relative to it -- no negative hacks needed.
+
 private val avatarOverlap = (AVATAR_SIZE_DP / 2).dp
 
 @Composable

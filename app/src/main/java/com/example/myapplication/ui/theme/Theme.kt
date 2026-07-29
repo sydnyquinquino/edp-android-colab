@@ -52,7 +52,7 @@ fun MyApplicationTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = LiceoTypography,
         content = content
     )
 }

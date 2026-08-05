@@ -137,7 +137,7 @@ fun ProfileScreen() {
                     InfoRow(
                         icon = Icons.Default.School,
                         label = "Course",
-                        value = "BSIT - Bachelor of Science in Information Technology",
+                        value = "Bachelor of Science in Information Technology",
                         inkColor = inkColor,
                         mutedColor = mutedColor
                     )
@@ -146,7 +146,7 @@ fun ProfileScreen() {
                     InfoRow(
                         icon = Icons.Default.Class,
                         label = "Section",
-                        value = "3-2",
+                        value = "BSIT 3 - 2",
                         inkColor = inkColor,
                         mutedColor = mutedColor
                     )
